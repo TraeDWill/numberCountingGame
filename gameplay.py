@@ -66,6 +66,7 @@ def menu():
         if choice == 1:
             difficulty = input(f"What is your difficulty level, Denizen {player}? \n1. Easy \n2. Medium\n3. Hard\n")
             score = playGame(player, difficulty)
+            #classes.inputScore(score)
         elif choice == 2:
             print("This feature has yet to be implemented! Return soon to see progress!")
         elif choice == 3:
